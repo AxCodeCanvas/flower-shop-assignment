@@ -1,0 +1,318 @@
+/* __________________font-family_________________ */
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* ______________ our-button ________________ */
+.our-button{
+    color: #FFFFFF;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 0px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700; 
+}
+/* _________________ header style ________________ */
+.header-style{
+    background: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    height: 850px;
+    display: flex;
+    /* flex-shrink: 0; */
+    justify-content: space-between;
+}
+.flower-header-title{
+    /* display: flex; */
+    width: 708px;
+    /* flex-direction: column; */
+    /* flex-shrink: 0; */
+    color: #272727;
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+.flower-header-paragraph{
+    /* display: flex; */
+    width: 634px;
+    /* flex-direction: column; */
+    /* flex-shrink: 0; */
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.off-color{
+    color:#E55473;
+}
+.left-header{
+    margin-top: 197px;
+    margin-left: 240px;
+}
+.flower-header-paragraph{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.right-header{
+    margin-top: 50px;
+    margin-right: 240px;
+    /* margin-bottom: 0px; */
+}
+/* ___________________ main style _________________ */
+
+/* --- bonus-section ---- */
+.bonus-section-title{
+    color: #272727;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 178px;
+    padding-left: 101px;
+    margin-bottom: 0px;
+
+}
+.bonus-section-paragraph{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    padding-top: 24px;
+}
+.bonus-section-text {
+   margin-left: 33%;
+}
+
+
+/* bonus-image-style */
+.bonus-section-img{
+    padding: 48px 150px 0px 240px;
+    display: flex;
+    gap: 24px;
+   margin-right: 100px;
+}
+
+.image-box-1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.background-img-1{
+    background-image: url("../Flower Asset/pngwingb.png");
+    background-position: center;
+    width: 310px;
+    height: 428px;
+    background-repeat: no-repeat;
+    padding-top: 222px;
+    padding-left: 150px;
+
+}
+
+.image-box-2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.background-img-2{
+    background-image: url("../Flower Asset/pngwinga.png");
+    background-position: center;
+    width: 310px;
+    height: 428px;
+    background-repeat: no-repeat;
+    padding-top: 222px;
+    padding-left: 150px;
+
+}
+
+.image-box-3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.background-img-3{
+    background-image: url("../Flower Asset/pngwingc.png");
+    background-position: center;
+    width: 310px;
+    height: 428px;
+    background-repeat: no-repeat;
+    padding-top: 175px;
+    padding-left: 150px;  
+}
+
+.bonus-img-description{
+    display: flex;
+    margin-left: 381px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.box-2-image-name{
+    margin-left: 315px;
+}
+.box-3-image-name{
+    margin-left: 305px;
+}
+
+/* section-1 */
+.section-1{
+    margin-top: 150px;
+    width: 100%;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    padding-left: 395px;
+
+}
+.section-1-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 230px;
+    margin-left: 30px;
+    margin-bottom: 24px;
+}
+.section-1-paragraph{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sign-up{
+    margin-left: 230px;
+    margin-top: 32px;
+}
+.section-1-img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 186px;
+}
+
+/* section-2 */
+.instagram{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 128px;
+    
+}
+.social-media-paragraph{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 615px;
+    padding-bottom: 48px;
+}
+.instagram-flower{
+    display: flex;
+    /* margin: 0px 216px 0px 216px; */
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 128px;
+    gap: 24px;
+    
+}
+
+/* section-3 */
+.section-3{
+    background-image:url("../Flower Asset/Rectangle 9.png");
+    width: 100%;
+    height: 449px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-right: 240px;
+    margin-left: 200px;
+}
+.section-3-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+}
+.section-3-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 76px;
+}
+.section-3-text-style{
+    padding: 122px 534px 0px 533px;
+}
+.input-section{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    border: none;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px 0px 22px 22px;
+}
+.subscribe-bar{
+    margin-left: 287px;
+}
+.our-button{
+    margin-left: 16px;
+}
+.subscribe-bar{
+    margin-top: 48px;
+}
+
+/* ________________________ footle-style _____________________ */
+
+.footer-style{
+    background-color: #000;
+    width: 100%;
+    height: 449px;
+    margin-top: 128px;
+    padding-left: 648px;
+    padding-top: 128px;
+
+}
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 183px;
+    padding-bottom: 5px;
+}
+.footer-title-style{
+    color: #E55473;
+}
+.footer-paragraph{
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+}
+.footer-additional-paragraph{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 136px;
+}
+
